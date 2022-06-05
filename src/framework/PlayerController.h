@@ -49,7 +49,7 @@ protected:
 
     int sprintWidth;
     int sprintHeight;
-    float velocity = 20;
+    float velocity = 15;
     float gravity = 9;
     float jumpForce = 160;
     float runningCurrentFrame = 0;
