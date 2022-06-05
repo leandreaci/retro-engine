@@ -76,7 +76,7 @@ void RenderWindow::init() {
         std::cout << "Window failed to init. Error: " << SDL_GetError() << std::endl;
     }
 
-    renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+    renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_TARGETTEXTURE);
 }
 
 int RenderWindow::getWidth() const {
