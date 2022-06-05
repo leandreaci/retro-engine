@@ -1,3 +1,0 @@
-/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/CMakeFiles/retro_engine.dir
-/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/CMakeFiles/ALL_BUILD.dir
-/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/CMakeFiles/ZERO_CHECK.dir

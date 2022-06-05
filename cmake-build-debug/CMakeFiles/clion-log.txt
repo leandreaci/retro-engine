@@ -1,6 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -G Xcode /Users/le/Documents/Development/c++/retro_engine
-Source path: /Users/le/Documents/Development/c++/retro_engine/src
-Binary path: /Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/bin
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/le/Documents/Development/c++/retro_engine/cmake-build-debug
