@@ -2,8 +2,8 @@
 // Created by leandro on 02/05/2020.
 //
 
-#ifndef ACTION_GAME_PLAYERCONTROLLER_H
-#define ACTION_GAME_PLAYERCONTROLLER_H
+#ifndef RETRO_ENGINE_PLAYERCONTROLLER_H
+#define RETRO_ENGINE_PLAYERCONTROLLER_H
 
 #include "RenderWindow.h"
 #include "Config.h"
@@ -49,7 +49,7 @@ protected:
 
     int sprintWidth;
     int sprintHeight;
-    float velocity = 20;
+    float velocity = 15;
     float gravity = 9;
     float jumpForce = 160;
     float runningCurrentFrame = 0;
@@ -90,4 +90,4 @@ protected:
 };
 
 
-#endif //ACTION_GAME_PLAYERCONTROLLER_H
+#endif //RETRO_ENGINE_PLAYERCONTROLLER_H

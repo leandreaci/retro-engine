@@ -2,8 +2,8 @@
 // Created by leandro on 21/04/2020.
 //
 
-#ifndef INC_ACTION_GAME_GAME_H
-#define INC_ACTION_GAME_GAME_H
+#ifndef INC_RETRO_ENGINE_GAME_H
+#define INC_RETRO_ENGINE_GAME_H
 
 #include <SDL.h>
 #include <framework/Start.h>
@@ -18,4 +18,4 @@ public:
 };
 
 
-#endif //INC_ACTION_GAME_GAME_H
+#endif //INC_RETRO_ENGINE_GAME_H

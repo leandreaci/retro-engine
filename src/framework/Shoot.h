@@ -2,8 +2,8 @@
 // Created by leandro on 27/08/2021.
 //
 
-#ifndef ACTION_GAME_SHOOT_H
-#define ACTION_GAME_SHOOT_H
+#ifndef RETRO_ENGINE_SHOOT_H
+#define RETRO_ENGINE_SHOOT_H
 
 
 #include "RenderWindow.h"
@@ -33,4 +33,4 @@ public:
 };
 
 
-#endif //ACTION_GAME_SHOOT_H
+#endif //RETRO_ENGINE_SHOOT_H
