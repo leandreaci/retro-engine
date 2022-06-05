@@ -7,7 +7,7 @@
 #include "FrameRate.h"
 
 void FrameRate::initialize() {
-    lastTime = SDL_GetTicks();
+
 }
 
 Uint32 FrameRate::getFrameRate() {

@@ -17,11 +17,6 @@ public:
     void initialize();
 
 private:
-    Uint32 frameRate = 0;
-    Uint32 delta = 0;
-    Uint32 lastTime = 0;
-    Uint32 fps = 30;
-
     Uint32 getTicks();
 
     typedef struct {
