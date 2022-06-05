@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		75288D4E209149DA8274292E /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E22FA289589C49B197A83062 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3524035AF96006E162863EFC /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				1FA4C12B940A47CCB85A3C0C /* PBXTargetDependency */,
+				21A41B7CDD4A49C59A250F7A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		7A34625A664D4EA28397177C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 35A9AA7B2F9843288E874F15 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				4E8BF377F5C78B5A78476803 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		27F9581DA1C04394991A3289 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Render.cpp */ = {isa = PBXBuildFile; fileRef = 02A6ABFE5C1647FDB81D7932 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Render.cpp */; };
+		373F593F657349C99C9E99D2 /* /Users/le/Documents/Development/c++/retro_engine/src/game/Player.cpp */ = {isa = PBXBuildFile; fileRef = 3EC20B86EAA2483D8C80E82B /* /Users/le/Documents/Development/c++/retro_engine/src/game/Player.cpp */; };
+		3B35D5DDD30341C6A33FF931 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/graphic/FrameRate.cpp */ = {isa = PBXBuildFile; fileRef = 6E4EAE977AE84859838FB655 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/graphic/FrameRate.cpp */; };
+		3C8CFA3A664049FB8BBCBC42 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Config.cpp */ = {isa = PBXBuildFile; fileRef = 40A4F858B24042F8BAB97C29 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Config.cpp */; };
+		426B66529D79486EB2E30D53 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/PlayerController.cpp */ = {isa = PBXBuildFile; fileRef = 984EE74F2A144427AEE0D86C /* /Users/le/Documents/Development/c++/retro_engine/src/framework/PlayerController.cpp */; };
+		4E46FA862DF9485FA6DB6B5B /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Start.cpp */ = {isa = PBXBuildFile; fileRef = D46B2449A0E24254A31A4F40 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Start.cpp */; };
+		563C2209C6284DD196060470 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Stage.cpp */ = {isa = PBXBuildFile; fileRef = 0FE7E9D8973B431485D4F418 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Stage.cpp */; };
+		578B2DFA993142AD9DA7BEB9 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Initialization.cpp */ = {isa = PBXBuildFile; fileRef = 585302B99D32479FBD6D5A64 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Initialization.cpp */; };
+		696E64F0BF34491486B07869 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/RenderWindow.cpp */ = {isa = PBXBuildFile; fileRef = BA9D4FC0515148688541910C /* /Users/le/Documents/Development/c++/retro_engine/src/framework/RenderWindow.cpp */; };
+		7093908C66E94A1FA2791D89 /* /Users/le/Documents/Development/c++/retro_engine/src/game/InputGame.cpp */ = {isa = PBXBuildFile; fileRef = B18D2CAECC8F4F30BE1EEE99 /* /Users/le/Documents/Development/c++/retro_engine/src/game/InputGame.cpp */; };
+		8150A204F967459DA446CA38 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Entity.cpp */ = {isa = PBXBuildFile; fileRef = F1BEF26362DA4A798ECAD816 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Entity.cpp */; };
+		8D35F348AC68469887A4359F /* /Users/le/Documents/Development/c++/retro_engine/src/main.cpp */ = {isa = PBXBuildFile; fileRef = DDADA3B56A2D4C5AA657DB02 /* /Users/le/Documents/Development/c++/retro_engine/src/main.cpp */; };
+		97C5D852586745B090F9B756 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Shoot.cpp */ = {isa = PBXBuildFile; fileRef = B3292E5583E541AD977EB2BD /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Shoot.cpp */; };
+		9BD4AE6205864A54B84BC571 /* /Users/le/Documents/Development/c++/retro_engine/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5349B9D155A04CF9A25D0F9D /* /Users/le/Documents/Development/c++/retro_engine/CMakeLists.txt */; };
+		A9246FBAE55B496CA210E4DC /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Input.cpp */ = {isa = PBXBuildFile; fileRef = 9F785A6F9791434CB6EC5FCF /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Input.cpp */; };
+		C5BD42D1AE264CA1BACE7576 /* /Users/le/Documents/Development/c++/retro_engine/src/game/Game.cpp */ = {isa = PBXBuildFile; fileRef = F92973EA6DE3466786965468 /* /Users/le/Documents/Development/c++/retro_engine/src/game/Game.cpp */; };
+		D61F7EB80B704B47B5F6AEE5 /* /Users/le/Documents/Development/c++/retro_engine/src/game/ConfigurationGame.cpp */ = {isa = PBXBuildFile; fileRef = 6B6807AFDD46449D80C787AC /* /Users/le/Documents/Development/c++/retro_engine/src/game/ConfigurationGame.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0E358D084AD34ADF8226CF76 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		0EFD5323ACB34A2F83088FC4 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		675A42D84B8040C48DC06922 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D8F88AD39D914AB0B32B70ED /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		4B6C9B8B705D4B5BA078C5BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D25F8B6B2C824E929704E07F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B950F496B2945C5AB84487F;
+			remoteInfo = retro_engine;
+		};
+		8B5BEF720ECF4A48A1456BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D25F8B6B2C824E929704E07F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A34625A664D4EA28397177C;
+			remoteInfo = ZERO_CHECK;
+		};
+		F15E397792F54F44845BEC47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D25F8B6B2C824E929704E07F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A34625A664D4EA28397177C;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A6ABFE5C1647FDB81D7932 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Render.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Render.cpp; path = src/framework/Render.cpp; sourceTree = SOURCE_ROOT; };
+		0FE7E9D8973B431485D4F418 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Stage.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Stage.cpp; path = src/framework/Stage.cpp; sourceTree = SOURCE_ROOT; };
+		3EC20B86EAA2483D8C80E82B /* /Users/le/Documents/Development/c++/retro_engine/src/game/Player.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Player.cpp; path = src/game/Player.cpp; sourceTree = SOURCE_ROOT; };
+		40A4F858B24042F8BAB97C29 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Config.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Config.cpp; path = src/framework/Config.cpp; sourceTree = SOURCE_ROOT; };
+		5349B9D155A04CF9A25D0F9D /* /Users/le/Documents/Development/c++/retro_engine/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		585302B99D32479FBD6D5A64 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Initialization.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Initialization.cpp; path = src/framework/Initialization.cpp; sourceTree = SOURCE_ROOT; };
+		6B6807AFDD46449D80C787AC /* /Users/le/Documents/Development/c++/retro_engine/src/game/ConfigurationGame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConfigurationGame.cpp; path = src/game/ConfigurationGame.cpp; sourceTree = SOURCE_ROOT; };
+		6E4EAE977AE84859838FB655 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/graphic/FrameRate.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FrameRate.cpp; path = src/framework/graphic/FrameRate.cpp; sourceTree = SOURCE_ROOT; };
+		984EE74F2A144427AEE0D86C /* /Users/le/Documents/Development/c++/retro_engine/src/framework/PlayerController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PlayerController.cpp; path = src/framework/PlayerController.cpp; sourceTree = SOURCE_ROOT; };
+		9F785A6F9791434CB6EC5FCF /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Input.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Input.cpp; path = src/framework/Input.cpp; sourceTree = SOURCE_ROOT; };
+		A663A4B3589D46589F5FF019 /* /Users/le/Documents/Development/c++/retro_engine/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B18D2CAECC8F4F30BE1EEE99 /* /Users/le/Documents/Development/c++/retro_engine/src/game/InputGame.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = InputGame.cpp; path = src/game/InputGame.cpp; sourceTree = SOURCE_ROOT; };
+		B3292E5583E541AD977EB2BD /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Shoot.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Shoot.cpp; path = src/framework/Shoot.cpp; sourceTree = SOURCE_ROOT; };
+		BA9D4FC0515148688541910C /* /Users/le/Documents/Development/c++/retro_engine/src/framework/RenderWindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RenderWindow.cpp; path = src/framework/RenderWindow.cpp; sourceTree = SOURCE_ROOT; };
+		C4F42E43D65841BB81582EA1 /* retro_engine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = retro_engine; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46B2449A0E24254A31A4F40 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Start.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Start.cpp; path = src/framework/Start.cpp; sourceTree = SOURCE_ROOT; };
+		DDADA3B56A2D4C5AA657DB02 /* /Users/le/Documents/Development/c++/retro_engine/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		F1BEF26362DA4A798ECAD816 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Entity.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Entity.cpp; path = src/framework/Entity.cpp; sourceTree = SOURCE_ROOT; };
+		F92973EA6DE3466786965468 /* /Users/le/Documents/Development/c++/retro_engine/src/game/Game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Game.cpp; path = src/game/Game.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ADFCD6CD4B945DD891D27B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F6EB6D8CA8447D58FDA806E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				40A4F858B24042F8BAB97C29 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Config.cpp */,
+				F1BEF26362DA4A798ECAD816 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Entity.cpp */,
+				585302B99D32479FBD6D5A64 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Initialization.cpp */,
+				9F785A6F9791434CB6EC5FCF /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Input.cpp */,
+				984EE74F2A144427AEE0D86C /* /Users/le/Documents/Development/c++/retro_engine/src/framework/PlayerController.cpp */,
+				02A6ABFE5C1647FDB81D7932 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Render.cpp */,
+				BA9D4FC0515148688541910C /* /Users/le/Documents/Development/c++/retro_engine/src/framework/RenderWindow.cpp */,
+				B3292E5583E541AD977EB2BD /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Shoot.cpp */,
+				0FE7E9D8973B431485D4F418 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Stage.cpp */,
+				D46B2449A0E24254A31A4F40 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Start.cpp */,
+				6E4EAE977AE84859838FB655 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/graphic/FrameRate.cpp */,
+				6B6807AFDD46449D80C787AC /* /Users/le/Documents/Development/c++/retro_engine/src/game/ConfigurationGame.cpp */,
+				F92973EA6DE3466786965468 /* /Users/le/Documents/Development/c++/retro_engine/src/game/Game.cpp */,
+				B18D2CAECC8F4F30BE1EEE99 /* /Users/le/Documents/Development/c++/retro_engine/src/game/InputGame.cpp */,
+				3EC20B86EAA2483D8C80E82B /* /Users/le/Documents/Development/c++/retro_engine/src/game/Player.cpp */,
+				DDADA3B56A2D4C5AA657DB02 /* /Users/le/Documents/Development/c++/retro_engine/src/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		784410D238384494929F6B91 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C119B228DC0B495E8CC3A8B3 /* CMake Rules */,
+				A663A4B3589D46589F5FF019 /* /Users/le/Documents/Development/c++/retro_engine/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		AADDEAAE1A144042B57AA65F /* retro_engine */ = {
+			isa = PBXGroup;
+			children = (
+				3F6EB6D8CA8447D58FDA806E /* Source Files */,
+				5349B9D155A04CF9A25D0F9D /* /Users/le/Documents/Development/c++/retro_engine/CMakeLists.txt */,
+			);
+			name = retro_engine;
+			sourceTree = "<group>";
+		};
+		C119B228DC0B495E8CC3A8B3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F2C13BBF311A44AEB154322A = {
+			isa = PBXGroup;
+			children = (
+				AADDEAAE1A144042B57AA65F /* retro_engine */,
+				784410D238384494929F6B91 /* ALL_BUILD */,
+				F2F5BAE42B354E4A9CD594BA /* Products */,
+				F2F046E305FB4D5C9CF0D724 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2F046E305FB4D5C9CF0D724 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2F5BAE42B354E4A9CD594BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4F42E43D65841BB81582EA1 /* retro_engine */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B950F496B2945C5AB84487F /* retro_engine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE9D3298C6B4FA3935E2043 /* Build configuration list for PBXNativeTarget "retro_engine" */;
+			buildPhases = (
+				0963DACC704941288C07FCAF /* Sources */,
+				1ADFCD6CD4B945DD891D27B7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C58F9A021A6A4147B804C73A /* PBXTargetDependency */,
+			);
+			name = retro_engine;
+			productName = retro_engine;
+			productReference = C4F42E43D65841BB81582EA1 /* retro_engine */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D25F8B6B2C824E929704E07F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 32AAE714147F46BC9DF07531 /* Build configuration list for PBXProject "retro_engine" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D8F88AD39D914AB0B32B70ED /* Debug */,
+				675A42D84B8040C48DC06922 /* Release */,
+				0EFD5323ACB34A2F83088FC4 /* MinSizeRel */,
+				0E358D084AD34ADF8226CF76 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F2C13BBF311A44AEB154322A;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				75288D4E209149DA8274292E /* ALL_BUILD */,
+				7A34625A664D4EA28397177C /* ZERO_CHECK */,
+				5B950F496B2945C5AB84487F /* retro_engine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3524035AF96006E162863EFC /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/le/Documents/Development/c++/retro_engine/cmake-build-debug
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/le/Documents/Development/c++/retro_engine/cmake-build-debug
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/le/Documents/Development/c++/retro_engine/cmake-build-debug
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/le/Documents/Development/c++/retro_engine/cmake-build-debug
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4E8BF377F5C78B5A78476803 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/le/Documents/Development/c++/retro_engine/cmake-build-debug
+  make -f /Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/le/Documents/Development/c++/retro_engine/cmake-build-debug
+  make -f /Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/le/Documents/Development/c++/retro_engine/cmake-build-debug
+  make -f /Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/le/Documents/Development/c++/retro_engine/cmake-build-debug
+  make -f /Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0963DACC704941288C07FCAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8CFA3A664049FB8BBCBC42 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Config.cpp */,
+				8150A204F967459DA446CA38 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Entity.cpp */,
+				578B2DFA993142AD9DA7BEB9 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Initialization.cpp */,
+				A9246FBAE55B496CA210E4DC /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Input.cpp */,
+				426B66529D79486EB2E30D53 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/PlayerController.cpp */,
+				27F9581DA1C04394991A3289 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Render.cpp */,
+				696E64F0BF34491486B07869 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/RenderWindow.cpp */,
+				97C5D852586745B090F9B756 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Shoot.cpp */,
+				563C2209C6284DD196060470 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Stage.cpp */,
+				4E46FA862DF9485FA6DB6B5B /* /Users/le/Documents/Development/c++/retro_engine/src/framework/Start.cpp */,
+				3B35D5DDD30341C6A33FF931 /* /Users/le/Documents/Development/c++/retro_engine/src/framework/graphic/FrameRate.cpp */,
+				D61F7EB80B704B47B5F6AEE5 /* /Users/le/Documents/Development/c++/retro_engine/src/game/ConfigurationGame.cpp */,
+				C5BD42D1AE264CA1BACE7576 /* /Users/le/Documents/Development/c++/retro_engine/src/game/Game.cpp */,
+				7093908C66E94A1FA2791D89 /* /Users/le/Documents/Development/c++/retro_engine/src/game/InputGame.cpp */,
+				373F593F657349C99C9E99D2 /* /Users/le/Documents/Development/c++/retro_engine/src/game/Player.cpp */,
+				8D35F348AC68469887A4359F /* /Users/le/Documents/Development/c++/retro_engine/src/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FA4C12B940A47CCB85A3C0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A34625A664D4EA28397177C /* ZERO_CHECK */;
+			targetProxy = F15E397792F54F44845BEC47 /* PBXContainerItemProxy */;
+		};
+		21A41B7CDD4A49C59A250F7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B950F496B2945C5AB84487F /* retro_engine */;
+			targetProxy = 4B6C9B8B705D4B5BA078C5BA /* PBXContainerItemProxy */;
+		};
+		C58F9A021A6A4147B804C73A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A34625A664D4EA28397177C /* ZERO_CHECK */;
+			targetProxy = 8B5BEF720ECF4A48A1456BAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		163C8B9C6D5244C3B74B6FC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/build";
+			};
+			name = Release;
+		};
+		2303D1509049441AAD83FEC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/build";
+			};
+			name = Debug;
+		};
+		2FBACC34BA824E0182C6B769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3336579E801140C19D33E3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/le/Documents/Development/c++/retro_engine/include","/Users/le/Documents/Development/c++/retro_engine/src","/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/bin","/Users/le/Documents/Development/c++/retro_engine","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -pedantic '-std=gnu++2a' ";
+				OTHER_LDFLAGS = ("-framework Cocoa -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /Library/Frameworks","-framework SDL2_image","-framework SDL2","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = retro_engine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Library/Frameworks/SDL2.framework/Headers,/Library/Frameworks/SDL2_image.framework/Headers,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		34F0E41418884FF9BA8FBEE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/le/Documents/Development/c++/retro_engine/include","/Users/le/Documents/Development/c++/retro_engine/src","/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/bin","/Users/le/Documents/Development/c++/retro_engine","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -pedantic '-std=gnu++2a' ";
+				OTHER_LDFLAGS = ("-framework Cocoa -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /Library/Frameworks","-framework SDL2_image","-framework SDL2","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = retro_engine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Library/Frameworks/SDL2.framework/Headers,/Library/Frameworks/SDL2_image.framework/Headers,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		449F162DA84D453CA2A2F1F0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5F9ABB8F15E74A2FA44BBAF4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/build";
+			};
+			name = RelWithDebInfo;
+		};
+		61E49AB05FA64C3396C65098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6E0EFFEEC2704817BD04A30F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7E637E9F6BBE45DA8B647F31 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		8D0D31979B8C414EA5B4327E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/le/Documents/Development/c++/retro_engine/include","/Users/le/Documents/Development/c++/retro_engine/src","/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/bin","/Users/le/Documents/Development/c++/retro_engine","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -pedantic '-std=gnu++2a' ";
+				OTHER_LDFLAGS = ("-framework Cocoa -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /Library/Frameworks","-framework SDL2_image","-framework SDL2","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = retro_engine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Library/Frameworks/SDL2.framework/Headers,/Library/Frameworks/SDL2_image.framework/Headers,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9D92A721219C4462B987B4A1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B9C6DCDF656547998334A489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BE4991EC5F2C4E369F1BDC6E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/le/Documents/Development/c++/retro_engine/include","/Users/le/Documents/Development/c++/retro_engine/src","/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/bin","/Users/le/Documents/Development/c++/retro_engine","$(inherited)");
+				INSTALL_PATH = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -pedantic '-std=gnu++2a' ";
+				OTHER_LDFLAGS = ("-framework Cocoa -Wl,-search_paths_first -Wl,-headerpad_max_install_names","-F /Library/Frameworks","-framework SDL2_image","-framework SDL2","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = retro_engine;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Library/Frameworks/SDL2.framework/Headers,/Library/Frameworks/SDL2_image.framework/Headers,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C845450B70524B36A8053480 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug/build";
+			};
+			name = MinSizeRel;
+		};
+		CD0D9E79D6904C19826408AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/le/Documents/Development/c++/retro_engine/cmake-build-debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EE9D3298C6B4FA3935E2043 /* Build configuration list for PBXNativeTarget "retro_engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F0E41418884FF9BA8FBEE4 /* Debug */,
+				3336579E801140C19D33E3F0 /* Release */,
+				8D0D31979B8C414EA5B4327E /* MinSizeRel */,
+				BE4991EC5F2C4E369F1BDC6E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		32AAE714147F46BC9DF07531 /* Build configuration list for PBXProject "retro_engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2303D1509049441AAD83FEC1 /* Debug */,
+				163C8B9C6D5244C3B74B6FC9 /* Release */,
+				C845450B70524B36A8053480 /* MinSizeRel */,
+				5F9ABB8F15E74A2FA44BBAF4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		35A9AA7B2F9843288E874F15 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C6DCDF656547998334A489 /* Debug */,
+				61E49AB05FA64C3396C65098 /* Release */,
+				449F162DA84D453CA2A2F1F0 /* MinSizeRel */,
+				7E637E9F6BBE45DA8B647F31 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E22FA289589C49B197A83062 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBACC34BA824E0182C6B769 /* Debug */,
+				CD0D9E79D6904C19826408AA /* Release */,
+				9D92A721219C4462B987B4A1 /* MinSizeRel */,
+				6E0EFFEEC2704817BD04A30F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D25F8B6B2C824E929704E07F /* Project object */;
+}
