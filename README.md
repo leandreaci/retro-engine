@@ -1,5 +1,7 @@
 # Retro Engine
 
+Version 0.1 - Alpha
+
 A basic under construction engine 16-bit like to classic platform games.
 
 To run, install the dependencies and run
