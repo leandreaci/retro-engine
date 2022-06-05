@@ -18,8 +18,8 @@ To run, install the dependencies and run
 
 First you need to download the SDL2 Libraries
 
-- Download [SDL](https://www.libsdl.org/download-2.0.php) in DMG
-  - Move files SDL2.framework to /Library/Frameworks 
+- Download [SDL](https://www.libsdl.org/release/SDL2-2.0.22.dmg)
+  - Move folder SDL2.framework to /Library/Frameworks 
 - Download [SDL_IMAGE](https://www.libsdl.org/projects/SDL_image/release/SDL2_image-2.0.5.dmg)
-    - Move files SDL2_image.framework to /Library/Frameworks
+    - Move folder SDL2_image.framework to /Library/Frameworks
 
