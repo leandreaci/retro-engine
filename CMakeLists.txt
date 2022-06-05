@@ -10,6 +10,10 @@ cmake_minimum_required(VERSION 3.5.1)
 # Settings
 set(CMAKE_CXX_STANDARD 23)
 
+if(APPLE)
+#        set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -G xcode")
+endif()
+
 # Add SDL2 CMake modules
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake/sdl2)
 
