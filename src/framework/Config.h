@@ -2,8 +2,8 @@
 // Created by leandro on 24/08/2021.
 //
 
-#ifndef ACTION_GAME_CONFIG_H
-#define ACTION_GAME_CONFIG_H
+#ifndef RETRO_ENGINE_CONFIG_H
+#define RETRO_ENGINE_CONFIG_H
 
 #include <map>
 #include <string>
@@ -38,4 +38,4 @@ public:
 };
 
 
-#endif //ACTION_GAME_CONFIG_H
+#endif //RETRO_ENGINE_CONFIG_H

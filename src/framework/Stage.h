@@ -2,8 +2,8 @@
 // Created by leandro on 23/08/2021.
 //
 
-#ifndef ACTION_GAME_STAGE_H
-#define ACTION_GAME_STAGE_H
+#ifndef RETRO_ENGINE_STAGE_H
+#define RETRO_ENGINE_STAGE_H
 
 #include <framework/Entity.h>
 #include <framework/RenderWindow.h>
@@ -20,4 +20,4 @@ public:
 };
 
 
-#endif //ACTION_GAME_STAGE_H
+#endif //RETRO_ENGINE_STAGE_H

@@ -2,8 +2,8 @@
 // Created by leandro on 02/05/2020.
 //
 
-#ifndef ACTION_GAME_INPUT_H
-#define ACTION_GAME_INPUT_H
+#ifndef RETRO_ENGINE_INPUT_H
+#define RETRO_ENGINE_INPUT_H
 
 
 #include <SDL_keyboard.h>
@@ -38,4 +38,4 @@ public:
 };
 
 
-#endif //ACTION_GAME_INPUT_H
+#endif //RETRO_ENGINE_INPUT_H

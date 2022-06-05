@@ -2,8 +2,8 @@
 // Created by leandro on 25/08/2021.
 //
 
-#ifndef ACTION_GAME_START_H
-#define ACTION_GAME_START_H
+#ifndef RETRO_ENGINE_START_H
+#define RETRO_ENGINE_START_H
 
 #include <SDL.h>
 #include "framework/Input.h"
@@ -44,4 +44,4 @@ private:
 };
 
 
-#endif //ACTION_GAME_START_H
+#endif //RETRO_ENGINE_START_H

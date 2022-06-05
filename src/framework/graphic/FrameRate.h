@@ -2,9 +2,12 @@
 // Created by leandro on 22/03/2021.
 //
 
-#ifndef ACTION_GAME_FRAMERATE_H
-#define ACTION_GAME_FRAMERATE_H
+#ifndef RETRO_ENGINE_FRAMERATE_H
+#define RETRO_ENGINE_FRAMERATE_H
 
+#define FPS_DEFAULT		30
+#define FPS_LOWER_LIMIT		1
+#define FPS_UPPER_LIMIT		200
 
 class FrameRate {
 
@@ -17,9 +20,24 @@ private:
     Uint32 frameRate = 0;
     Uint32 delta = 0;
     Uint32 lastTime = 0;
-    Uint32 fps = 60;
+    Uint32 fps = 30;
 
+    Uint32 getTicks();
+
+    typedef struct {
+        Uint32 frameCount;
+        float rateTicks;
+        Uint32 baseTicks;
+        Uint32 lastTicks;
+        Uint32 rate;
+    } FpsController;
+
+    FpsController controller;
+
+    void init();
+
+    void delay();
 };
 
 
-#endif //ACTION_GAME_FRAMERATE_H
+#endif //RETRO_ENGINE_FRAMERATE_H
