@@ -43,7 +43,7 @@ int Config::getScreenHeight() {
 }
 
 int Config::getFps() {
-    return 50;
+    return 20;
 //    return stoi(this->options.find(this->FPS)->second);
 }
 

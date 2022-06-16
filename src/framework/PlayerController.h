@@ -30,8 +30,8 @@ public:
     virtual void jumping();
     virtual bool hasPlayerReachedTheGround();
 
-protected:
     Entity *entity;
+protected:
     SDL_Texture *playerTexture;
     RenderWindow *window;
     Input *input;

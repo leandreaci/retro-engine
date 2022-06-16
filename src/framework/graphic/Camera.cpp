@@ -23,17 +23,21 @@ void Camera::setPlayer(PlayerController *playerController) {
 }
 
 void Camera::moveForward() {
+    Entity* stageEntity = this->stage->entity;
+    stageEntity->setCurrentFrameX(( this->player->getX() + SCREEN_WIDTH / 2 ) - SCREEN_WIDTH / 2);
 }
 
 void Camera::update() {
-//    this->player->getX();
+    int playerX = this->player->getX();
+    Entity* playerEntity = this->player->entity;
 
-    if (this->player->getX() > 500)
+    this->moveForward();
+
+    if( playerX < 0 )
     {
-        this->stage->entity->setCurrentFrameX( this->stage->entity->getX() + this->player->getX());
+        playerEntity->setCurrentFrameX(0);
     }
-//    std::cout << this->player->getX() << std::endl;
-//    this->moveForward();
+
 }
 
 

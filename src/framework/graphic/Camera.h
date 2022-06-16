@@ -5,6 +5,8 @@
 #ifndef RETRO_ENGINE_CAMERA_H
 #define RETRO_ENGINE_CAMERA_H
 
+#define SCREEN_WIDTH 1200
+
 #include <framework/Entity.h>
 #include <framework/Stage.h>
 #include <framework/PlayerController.h>
