@@ -44,7 +44,7 @@ add_executable(
         ${SOURCE_FRAMEWORK_FILES}
         ${SOURCE_GRAPHIC_DIR}
         ${SOURCE_GAME_DIR}
-        )
+        src/framework/physic/collision.h src/framework/physic/collision.cpp)
 
 
 

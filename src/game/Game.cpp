@@ -10,6 +10,8 @@ void Start::BeforeLoop() {
     this->stage = Stage(&this->renderWindow);
     this->player.init("../res/gfx/megaman-sprite.png");
     this->stage.init("../res/gfx/stage_1.png");
+    this->camera.setStage(&this->stage);
+    this->camera.setPlayer(&this->player);
 }
 
 
@@ -18,6 +20,7 @@ void Start::OnLoop() {
     this->player.render();
     this->player.update();
     this->renderWindow.display();
+    this->camera.update();
 }
 
 void Start::OnCleanup() {

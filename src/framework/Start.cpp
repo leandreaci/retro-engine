@@ -4,15 +4,16 @@
 
 #include <game/ConfigurationGame.h>
 #include <game/InputGame.h>
-#include "framework/RenderWindow.h"
-#include "framework/Initialization.h"
-#include "framework/PlayerController.h"
-#include "framework/graphic/FrameRate.h"
+#include <framework/RenderWindow.h>
+#include <framework/Initialization.h>
+#include <framework/PlayerController.h>
+#include <framework/graphic/FrameRate.h>
+#include <framework/graphic/Camera.h>
 #include <framework/Stage.h>
 #include "Start.h"
 
-Start::Start(RenderWindow renderWindow, PlayerController player, Stage stage)
-        : renderWindow(renderWindow), player(player), stage(stage) {
+Start::Start(RenderWindow renderWindow, PlayerController player, Stage stage, Camera camera)
+        : renderWindow(renderWindow), player(player), stage(stage), camera(camera) {
     this->config = ConfigurationGame();
     this->config.load();
     this->event = SDL_Event();
@@ -20,6 +21,7 @@ Start::Start(RenderWindow renderWindow, PlayerController player, Stage stage)
     this->input = InputGame();
     this->renderWindow = RenderWindow(this->config.getName(), this->config.getScreenWidth(), this->config.getScreenHeight());
     this->player = PlayerController(&this->renderWindow, &this->input);
+    this->camera = Camera();
 }
 
 void Start::check() {

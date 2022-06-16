@@ -34,6 +34,10 @@ void PlayerController::setCurrentFrame(int x, int y, int w, int h) {
     this->entity->setCurrentFrame(x, y, w, h);
 }
 
+float PlayerController::getX() {
+    return this->entity->getX();
+}
+
 void PlayerController::setCurrentFrameX(int x) {
     this->entity->setCurrentFrameX(x);
 }

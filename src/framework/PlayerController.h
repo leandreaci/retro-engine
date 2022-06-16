@@ -20,28 +20,19 @@ public:
     int MOVE_FORWARD = 1;
     int MOVE_BACK = 2;
     int current_direction;
-
+    float getX();
     void render();
-
+    void init(const char *name);
+    void setWindow(RenderWindow *window);
     virtual void update();
-
     virtual void running();
-
     virtual void stopped();
-
     virtual void jumping();
-
     virtual bool hasPlayerReachedTheGround();
 
-    void init(const char *name);
-
-    void setWindow(RenderWindow *window);
-
-protected:
     Entity *entity;
+protected:
     SDL_Texture *playerTexture;
-
-
     RenderWindow *window;
     Input *input;
     Config config;
@@ -61,31 +52,22 @@ protected:
     Entity *newEntity(const char *name);
 
     void setCurrentFrame(int x, int y, int w, int h);
-
     void setCurrentFrameX(int x);
-
     void setCurrentFrameY(int y);
 
     SDL_Texture *loadTexture(const char *name);
 
     int getSprintWidth(int position = 1);
-
     int getSprintHeight(int position = 1);
 
     void move(int direction);
-
     void moveForward();
-
     void moveBack();
-
     void fire();
-
     void flipHorizontal(bool on = false);
 
     bool isWalkingForward();
-
     bool isWalkingBack();
-
 
 };
 
