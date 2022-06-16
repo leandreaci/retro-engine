@@ -12,10 +12,11 @@
 #include "framework/graphic/FrameRate.h"
 #include "framework/PlayerController.h"
 #include "framework/Stage.h"
+#include "framework/graphic/Camera.h"
 
 class Start {
 public:
-    explicit Start(RenderWindow renderWindow, PlayerController player, Stage stage);
+    explicit Start(RenderWindow renderWindow, PlayerController player, Stage stage, Camera camera);
 
     int onExecute();
 
@@ -41,6 +42,7 @@ private:
     Input input;
     PlayerController player;
     Stage stage;
+    Camera camera;
 };
 
 
