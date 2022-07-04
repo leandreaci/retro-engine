@@ -14,6 +14,10 @@
 class Camera {
 
 public:
+
+    Camera(RenderWindow *window);
+    RenderWindow *window;
+
     Stage* stage{};
     PlayerController* player{};
     void setCurrentFrame();

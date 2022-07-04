@@ -6,6 +6,7 @@
 #include <framework/Stage.h>
 #include "PlayerController.h"
 #include "Entity.h"
+#include <iostream>
 
 PlayerController::PlayerController(RenderWindow *window, Input *input) : window(window), input(input) {
     config = Config();
@@ -36,6 +37,11 @@ void PlayerController::setCurrentFrame(int x, int y, int w, int h) {
 
 float PlayerController::getX() {
     return this->entity->getX();
+}
+
+bool PlayerController::inCenter() {
+    std::cout << ( this->getX() + config.getScreenWidth() / 2 ) - config.getScreenWidth() / 2 << std::endl;
+    return config.getScreenWidth() / 2 == this->getX();
 }
 
 void PlayerController::setCurrentFrameX(int x) {
@@ -90,10 +96,15 @@ bool PlayerController::hasPlayerReachedTheGround() {
 void PlayerController::move(int direction) {
     if(direction == MOVE_FORWARD)
     {
+        int SCREEN_WIDTH = 1280;
+        int center =  SCREEN_WIDTH / 2;
+
         this->entity->setX( this->entity->getX() + velocity);
     }else
     {
-        this->entity->setX( this->entity->getX() - velocity);
+        if(this->entity->getX() > 5) {
+            this->entity->setX(this->entity->getX() - velocity);
+        }
     }
 }
 

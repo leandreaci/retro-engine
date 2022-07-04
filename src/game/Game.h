@@ -15,7 +15,7 @@
 class Game : public Start {
 
 public:
-    Game() : Start(RenderWindow(nullptr, 0, 0), Player(nullptr, nullptr), Stage(nullptr), Camera()) {}
+    Game() : Start(RenderWindow(nullptr, 0, 0), Player(nullptr, nullptr), Stage(nullptr), Camera(nullptr)) {}
 };
 
 

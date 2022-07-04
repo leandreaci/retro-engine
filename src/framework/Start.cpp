@@ -21,7 +21,6 @@ Start::Start(RenderWindow renderWindow, PlayerController player, Stage stage, Ca
     this->input = InputGame();
     this->renderWindow = RenderWindow(this->config.getName(), this->config.getScreenWidth(), this->config.getScreenHeight());
     this->player = PlayerController(&this->renderWindow, &this->input);
-    this->camera = Camera();
 }
 
 void Start::check() {

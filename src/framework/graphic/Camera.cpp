@@ -24,7 +24,12 @@ void Camera::setPlayer(PlayerController *playerController) {
 
 void Camera::moveForward() {
     Entity* stageEntity = this->stage->entity;
-    stageEntity->setCurrentFrameX(( this->player->getX() + SCREEN_WIDTH / 2 ) - SCREEN_WIDTH / 2);
+
+    if(this->player->getX() > 0 )
+    {
+        stageEntity->setCurrentFrameX(( this->player->getX() + SCREEN_WIDTH / 2 ) - SCREEN_WIDTH / 2);
+    }
+
 }
 
 void Camera::update() {
@@ -37,6 +42,10 @@ void Camera::update() {
     {
         playerEntity->setCurrentFrameX(0);
     }
+
+}
+
+Camera::Camera(RenderWindow *window): window(window) {
 
 }
 

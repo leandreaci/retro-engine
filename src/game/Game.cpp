@@ -19,8 +19,8 @@ void Start::OnLoop() {
     this->stage.render();
     this->player.render();
     this->player.update();
-    this->renderWindow.display();
     this->camera.update();
+    this->renderWindow.display();
 }
 
 void Start::OnCleanup() {

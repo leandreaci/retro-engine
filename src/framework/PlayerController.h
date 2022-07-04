@@ -29,6 +29,7 @@ public:
     virtual void stopped();
     virtual void jumping();
     virtual bool hasPlayerReachedTheGround();
+    bool inCenter();
 
     Entity *entity;
 protected:
